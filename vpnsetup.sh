@@ -23,10 +23,12 @@
 # - IPsec pre-shared key, VPN username and password
 # - All values MUST be placed inside 'single quotes'
 # - DO NOT use these characters within values:  \ " '
-
-YOUR_IPSEC_PSK=''
-YOUR_USERNAME=''
-YOUR_PASSWORD=''
+read -p"YOUR_IPSEC_PSK=" YOUR_IPSEC_PSK
+read -p"YOUR_USERNAME=" YOUR_USERNAME
+read -p"YOUR_PASSWORD=" YOUR_USERNAME
+#YOUR_IPSEC_PSK=''
+#YOUR_USERNAME=''
+#YOUR_PASSWORD=''
 
 # Important notes:   https://git.io/vpnnotes
 # Setup VPN clients: https://git.io/vpnclients
